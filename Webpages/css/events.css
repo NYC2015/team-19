@@ -1,0 +1,40 @@
+.header {
+  height: 800px;
+  text-align: center;
+  background-image: url(http://media.lessthan3.com/wp-content/uploads/2013/08/beats-antique.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header h1 {
+	font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 20px;
+  color: white;
+}
+
+.header p {
+	font-weight: bold;
+	letter-spacing: 8px;
+	margin-bottom: 55px;
+	margin-top: 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+#events_body .container{
+    background-color: black;
+    color:white;
+}
+
+.event p{
+    margin:0;
+}
+
+.event{
+    margin-bottom: 10px;
+    border-bottom: white solid 1px;
+}

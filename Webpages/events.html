@@ -2,22 +2,35 @@
 <html>
   <head>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
-    <link rel='stylesheet' href='css/style.css'/>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta property="og:url"           content="https://www.facebook.com/beatsantiquefans?fref=ts" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Rock the Earth" />
+    <meta property="og:description"   content="Saving the Earth One Beat at a Time" />
+    <meta property="og:image"         content="https://rocktheearth.org/mobius/rtewp-content/themes/simpolio/images/RTE.logo.homepage.3.png" />
 
 
     <link href="css/bootstrap.min" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/events.css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
  
     <script src="js/bootstrap.min"></script>
   </head>
-  <body>
-    
+  <body id="events">
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+      
     <div class="nav">
       <div class="container">
         <ul>
@@ -37,27 +50,33 @@
         <a class="btn1">Learn More</a>
       </div>
     </div>
-    <div class="main">
+    <div class="main" id="events_body">
       <div class="container">
-        
-        <h2>The Innovation Cloud Conference</h2>
-        <p>Connect with the best minds across a wide range of industries to share ideas and brainstorm new solutions to challenging problems.</p>
-        <p>Hear industry leaders talk about what worked (and what didn't) so that you can save time on your most challenging projects.</p>
-         <p>Learn about the latest research and technologies that you can use immediately to invent the future.</p>
-      </div>
-    </div>
-
-    <div class="jumbotron">
-    	<div class="container">
-        <h2>Stay Connected</h2>
-        <p>Receive weekly insights from industry insiders.</p>
-        <a class="btn2">Join</a>
+        <h2>EVENTS NEAR YOU</h2>
+          <div class="event">
+            <p>10.16.2015: Beats Antique</p>
+            <p>The Aggie Theater</p>
+            <p>Fort Collins, CO</p>
+            <div class="fb-like" data-href="https://www.facebook.com/beatsantiquefans?fref=ts" data-width="200" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+          </div>
+        <div class="event">
+            <p>10.17.2015: Xavier Rudd</p>
+            <p>Fillmore Auditorium</p>
+            <p>Denver, CO</p>
+            <div class="fb-like" data-href="https://www.facebook.com/beatsantiquefans?fref=ts" data-width="200" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+          </div>
+          <div class="event">
+            <p>10.17.2015: Emancipator Ensemble</p>
+            <p>PlayStation Theater</p>
+            <p>New York, NY</p>
+              <div class="fb-like" data-href="https://www.facebook.com/beatsantiquefans?fref=ts" data-width="200" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+          </div>
       </div>
     </div>
     
     <div class="footer">
       <div class="container">
-        <p>© Innovation Cloud Conference</p>
+        <p>© 2015 Rock the Earth | 1536 Wynkoop Street, Suite B200, Denver, CO 80202 | 303.454-3304</p>
       </div>
     </div>
   </body>

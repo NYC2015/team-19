@@ -1,0 +1,32 @@
+{
+    "application": {
+        "free_zone": {
+            "pages": [
+                { "name": "home", "title": "Home page" },
+                { "name": "about", "title": "About" }
+            ],
+
+            "components": [
+                {
+                    "name": "main_menu",
+                    "type": "menu",
+                    "items": [
+                        { "title": "Home page", "route": "home" },
+                        { "title": "About", "route": "about" }
+                    ]
+                }
+            ],
+            "components": [
+                    {
+                    "name": "jumbo",
+                    "type": "jumbotron",
+
+                    "title": "Hello world!",
+                    "text": "This is just an example",
+                    "button_title": "Learn more",
+                    "button_route": "about"
+                    }
+                ]
+        }
+    }
+}

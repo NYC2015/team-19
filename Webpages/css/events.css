@@ -16,6 +16,24 @@
   color: white;
 }
 
+
+
+.panel-body{
+    background-color: black;
+}
+
+.panel-title{
+    background-color: black;
+}
+
+.panel-heading a{
+    color:white !important;
+}
+
+.panel-heading{
+    background: black !important;
+}
+
 .header p {
 	font-weight: bold;
 	letter-spacing: 8px;
@@ -25,8 +43,15 @@
   color: white;
 }
 
+.main{
+    width: 100%;
+    background-color: black;
+    color:white;
+}
 
-
+.main .container{
+    width: 100%;
+}
 .event p{
     margin:0;
 }

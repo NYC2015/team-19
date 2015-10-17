@@ -23,6 +23,15 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
     
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    
   <body id="events">
     <div class="navibar">
       <div class="container">
@@ -30,6 +39,7 @@
          <a href="https://rocktheearth.org/overview/" class="btn">About</a>
           <a href="RockTheEarth.html" class="btn">Mission</a>
           <a class="btn">Campaign</a>
+          <a class ="events.html">Event</a>
           <a href=" https://rocktheearth.org/category/latest-news/" class="btn">Environment</a>
           <a href= "https://rocktheearth.org/contact-us/" class=" btn">Contact</a>
         </ul>
@@ -45,25 +55,31 @@
       
     <div class="main" id="events_body">
       <div class="container">
-        <h2>Come Support Beat Antique and Support your Planet.</h2>
+        <h2>Come Watch Beat Antique and Support your Planet.</h2>
             <div class="panel-group" id="accordion">
-          <div class="panel panel-default">
+      <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-            10.16.2015: BEAT ANTIQUE</a>
+            Description</a>
           </h4>
         </div>
         <div id="collapse1" class="panel-collapse collapse in">
-          <div class="panel-body">Come to watch Beat Antique play in The Aggie Theater at Fort Collins this week on the 16th.  Spread your support for Beat Antique and your planet by buying a ticket to this awesome event.  A percentage of the tickets profits will be sent donated to a charity to save Planet Earth. </div>
+          <div class="panel-body">Come watch Beat Antique play at the Aggie Theaters in Fort Collins this week on the 16th.  Support not only your favorite band, but also support the planet as a percentage of the tickets sales goes to the charity of defending the Earth.</div>
         </div>
       </div>
-
-      </div>
-    
+            <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment">                   </textarea>
+            </div>  
+            
+                <a class="btn1">Learn More</a>
+                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                
 </div>
-      </div>
-    
+        </div>
+          
+    </div>
     
     <div class="footer">
       <div class="container">

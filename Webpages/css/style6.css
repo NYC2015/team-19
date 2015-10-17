@@ -39,6 +39,7 @@ body {
   color: #333;
 }
 
+
 @media (min-width:850px) {
 	.header h1 {
 		font-size: 120px;
@@ -65,10 +66,13 @@ body {
 	transition: background .6s;  
 }
 
-.btn:hover {
-	color: darkcyan;
-	cursor: pointer; 
-	transition: background .6s;  
+.btn1 {
+    background-color: white;
+    margin: auto;
+    align-self: center;
+    width: 10px;
+    height: 10px;
+
 }
 
 .btn2:hover {

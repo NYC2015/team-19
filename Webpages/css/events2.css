@@ -19,6 +19,7 @@
 
 .header h2{
     color: white;
+    text-align: center;
 }
 
 
@@ -43,8 +44,8 @@
 	letter-spacing: 8px;
 	margin-bottom: 55px;
 	margin-top: 0;
-  text-transform: uppercase;
-  color: white;
+    text-transform: uppercase;
+    color: white;
 }
 
 .main{

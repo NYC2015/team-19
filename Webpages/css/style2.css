@@ -1,0 +1,206 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+
+/* Header */
+.header {
+  height: 600px;
+  text-align: center;
+  background-image: url("https://northmountainmusic.files.wordpress.com/2014/06/img_2929.jpg");
+  background
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 20px;
+  color: white;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	font-weight: bold;
+	letter-spacing: 8px;
+	margin-bottom: 55px;
+	margin-top: 0;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.header a {
+	color: white;
+  background: #333;
+  padding: 15px 30px;
+}
+.btn1:hover {
+	background: darkslategray;
+	cursor: pointer; 
+	transition: background .6s;  
+}
+
+.btn:hover {
+	color: darkcyan;
+	cursor: pointer; 
+	transition: background .6s;  
+}
+
+.btn2:hover {
+  background-color: darkslategray;
+  cursor: pointer;
+  transition: background .6s;
+}
+
+/* navibar */
+.navibar {
+  background-color: black;
+}
+.nav ul {
+	list-style: none;
+	margin: 0 auto; 
+	padding: 30px 0px;
+  color: white;
+}
+
+.nav a {
+  padding: 30px 10px; 
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: black;
+}
+
+.supporting .col {
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.supporting img {
+  height: 40px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 0 50px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.supporting a {
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 10px 25px;
+  font-size: 11px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Jumbotron */
+.jumbotron {
+	height: 320px; 
+	text-align: center;
+  background-color: darkcyan;
+}
+
+.jumbotron .container {
+	position: relative;
+  top: 85px;
+  margin-top: -50px;
+}
+
+.jumbotron h2 {
+ 	color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.jumbotron p {
+  color: white;
+  line-height: 25px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.jumbotron a {
+   background: black;
+   color: white;
+   padding: 7px 33px;
+}
+
+
+/* Footer */
+.footer { 
+	font-size: 14px;
+  background: black;
+  margin: 0px auto;
+}
+
+.footer p {
+  text-align: left;
+  color: white;
+  padding: 30px 50px;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+.fn{
+    width: 100px;
+}

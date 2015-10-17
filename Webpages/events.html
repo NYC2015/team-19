@@ -17,9 +17,10 @@
     <link href="css/bootstrap.min" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/events.css" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
- 
-    <script src="js/bootstrap.min"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body id="events">
     <div id="fb-root"></div>
@@ -29,7 +30,8 @@
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
       
     <div class="nav">
       <div class="container">
@@ -42,7 +44,7 @@
         </ul>
       </div>
     </div>
-		
+      
     <div class="header">
       <div class="container">
         <h1>EVENTS</h1>
@@ -53,24 +55,50 @@
     <div class="main" id="events_body">
       <div class="container">
         <h2>EVENTS NEAR YOU</h2>
-          <div class="event">
-            <p>10.16.2015: Beats Antique</p>
-            <p>The Aggie Theater</p>
-            <p>Fort Collins, CO</p>
-            <div class="fb-like" data-href="https://www.facebook.com/beatsantiquefans?fref=ts" data-width="200" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-          </div>
-        <div class="event">
-            <p>10.17.2015: Xavier Rudd</p>
-            <p>Fillmore Auditorium</p>
-            <p>Denver, CO</p>
-            <div class="fb-like" data-href="https://www.facebook.com/beatsantiquefans?fref=ts" data-width="200" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-          </div>
-          <div class="event">
-            <p>10.17.2015: Emancipator Ensemble</p>
-            <p>PlayStation Theater</p>
-            <p>New York, NY</p>
-              <div class="fb-like" data-href="https://www.facebook.com/beatsantiquefans?fref=ts" data-width="200" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-          </div>
+            <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+            10.16.2015: BEAT ANTIQUE</a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse in">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+            10.17.2015: XAVIER RUDD</a>
+          </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+            10.17.2015: EMANCIPATOR ENSEMBLE</a>
+          </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+        </div>
+  </div>
+</div>
       </div>
     </div>
     

@@ -1,0 +1,161 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+.btn:hover {
+	color: darkcyan;
+	cursor: pointer; 
+	transition: background .6s;  
+}
+
+.navebar {
+  background-color: black;
+}
+.nav ul {
+	list-style: none;
+	margin: 0 auto; 
+	padding: 30px 0px;
+  color: white;
+}
+
+.nav a {
+  padding: 30px 10px; 
+}
+
+.logo
+{
+    height: 60vh;
+    padding-top: 1px;
+    text-align: center;
+  background-image: url(http://7-themes.com/data_images/out/59/6973002-blue-mountains-landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;);
+}
+
+.logo .container
+{
+    position: relative;
+    top: 50%;
+}
+
+.logo .container h1
+{
+    color: white;
+    margin-top: auto;
+    text-transform: uppercase;
+}
+
+.statistics 
+{
+    padding-top: 12px;
+    padding-bottom: 56px;
+    background-color: black;
+}
+.statistics .col {
+  float: left;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  color: white;
+}
+
+.statistics .col2
+{
+    float: left;
+    width: 33%;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    padding-bottom: 0px;
+}
+
+.statistics p
+{
+    padding: 10px 10px;
+    
+}
+
+.statistics a{
+  list-style: none; 
+  padding: 10px 10px auto;
+  margin-left: -40px auto; 
+  margin-right: 61px;
+  color: white;
+}
+
+.statistics a2{
+  list-style: none; 
+  padding: 10px 10px;
+  margin-left: -40px; 
+  margin-right: 61px;
+  color: white;
+}
+.btn1{
+	cursor: pointer; 
+	transition: background .6s;
+    float: right;
+    margin-top: auto;
+    margin-left: auto;
+}
+.btn1:hover
+{
+    color: darkcyan;
+	cursor: pointer; 
+	transition: background .6s;
+    float: right;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.main
+{
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+}
+
+.support p
+{
+    color: white;
+    margin-top: -50px;
+}
+.footer { 
+	font-size: 14px;
+  background: black;
+  margin: -14px auto;
+}
+
+.panel-body{
+    background-color: black;
+}
+
+.panel-title{
+    background-color: black;
+}
+
+.panel-heading a{
+    color:white !important;
+}
+
+.panel-heading{
+    background: black !important;
+}
+
+.footer p {
+  text-align: left;
+  color: white;
+  padding: 30px 50px;
+}

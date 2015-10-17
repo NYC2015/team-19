@@ -77,8 +77,8 @@ body {
   transition: background .6s;
 }
 
-/* Nav */
-.nav {
+/* navibar */
+.navibar {
   background-color: black;
 }
 .nav ul {
@@ -176,7 +176,7 @@ body {
 .footer { 
 	font-size: 14px;
   background: black;
-  margin: -14px auto;
+  margin: 0px auto;
 }
 
 .footer p {

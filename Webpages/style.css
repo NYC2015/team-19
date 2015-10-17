@@ -1,0 +1,165 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+
+/* Header */
+.header {
+  height: 800px;
+  text-align: center;
+  background-image: url(https://shortstorysnapshots.files.wordpress.com/2011/06/dsc00180.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 20px;
+  color: #333;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	font-weight: bold;
+	letter-spacing: 8px;
+	margin-bottom: 55px;
+	margin-top: 0;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.header a {
+	color: white;
+  background: darkslategray;
+  padding: 15px 30px;
+}
+.btn1:hover {
+	background: forestgreen;
+	cursor: pointer; 
+	transition: background .6s;  
+}
+
+.btn:hover {
+	color: darkcyan;
+	cursor: pointer; 
+	transition: background .6s;  
+}
+
+.btn2:hover {
+  background-color: royalblue;
+  cursor: pointer;
+  transition: background .6s;
+}
+
+/* Nav */
+.nav {
+  background-color: black;
+}
+.nav ul {
+	list-style: none;
+	margin: 0 auto; 
+	padding: 30px 0px;
+  color: white;
+}
+
+.nav a {
+  padding: 30px 10px; 
+}
+
+/* Main */
+.main .container {
+	margin: 80px auto;
+}
+
+.main .container img { 
+  float: left;
+  width: 200px;
+  height: 230px;
+  margin: auto 60px 1cm 0;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+	height: 600px; 
+	text-align: right;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+}
+
+.jumbotron h2 {
+ 	color: white;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.jumbotron a {
+   background: black;
+   color: white;
+   padding: 7px 33px;
+}
+
+
+/* Footer */
+.footer { 
+	font-size: 14px;
+  background: black;
+  margin: -14px auto;
+}
+
+.footer p {
+  color: white;
+  padding: 30px 50px;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}

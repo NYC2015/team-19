@@ -56,11 +56,11 @@ body {
 
 .header a {
 	color: white;
-  background: darkslategray;
+  background: #333;
   padding: 15px 30px;
 }
 .btn1:hover {
-	background: forestgreen;
+	background: darkslategray;
 	cursor: pointer; 
 	transition: background .6s;  
 }
@@ -92,31 +92,65 @@ body {
   padding: 30px 10px; 
 }
 
-/* Main */
-.main .container {
-	margin: 80px auto;
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: black;
 }
 
-.main .container img { 
+.supporting .col {
   float: left;
-  width: 200px;
-  height: 230px;
-  margin: auto 60px 1cm 0;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.supporting img {
+  height: 40px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 0 50px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.supporting a {
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 10px 25px;
+  font-size: 11px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.clearfix {
+  clear: both;
 }
 
 
 /* Jumbotron */
 .jumbotron {
-	height: 600px; 
-	text-align: right;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+	height: 400px; 
+	text-align: center;
+  background-color: darkcyan;
 }
 
 .jumbotron .container {
 	position: relative;
-	top: 220px;
+  top: 100px;
+  margin-top: -20px;
 }
 
 .jumbotron h2 {
